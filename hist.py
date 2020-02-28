@@ -12,8 +12,10 @@ print("Random Normal Array Mean Centered", x[:10])
 
 
 print("mean", np.mean(x)) 
-print("std.dev")
+print("std.dev", np.std(x))
 
 
 plt.hist(x)
 plt.show()
+# my comment
+
